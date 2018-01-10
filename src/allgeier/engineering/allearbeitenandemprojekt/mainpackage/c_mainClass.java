@@ -12,4 +12,9 @@ public class c_mainClass {
 		c_mainClass.call_FiboPrintOut();
 	}
 
+	public static int fibo(int i) {
+        if (i <= 1) return i;
+        else return fibo(i-1) + fibo(i-2);
+    }
 }
+
